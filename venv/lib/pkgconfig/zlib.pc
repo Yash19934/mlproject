@@ -1,0 +1,13 @@
+prefix=/Users/yasharora/Downloads/mlproject/venv
+exec_prefix=/Users/yasharora/Downloads/mlproject/venv
+libdir=/Users/yasharora/Downloads/mlproject/venv/lib
+sharedlibdir=/Users/yasharora/Downloads/mlproject/venv/lib
+includedir=/Users/yasharora/Downloads/mlproject/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
